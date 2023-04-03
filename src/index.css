@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/tex-gyre-termes");
+@import url("https://fonts.cdnfonts.com/css/gistesy");
+
+:root {
+  --color-primary: rgb(248, 170, 175);
+  --color-secondary: rgb(171, 113, 81);
+  --color-tertiary: #dc8484;
+
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "TeXGyreTermes", sans-serif;
+  --font-tertiary: "Gistesy", sans-serif;
+
+  font-size: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--color-primary);
+}
