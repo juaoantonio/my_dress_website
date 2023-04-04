@@ -11,7 +11,7 @@
   --font-secondary: "TeXGyreTermes", sans-serif;
   --font-tertiary: "Gistesy", sans-serif;
 
-  font-size: 90%;
+  /* font-size: 90%; */
 }
 
 * {
@@ -30,6 +30,18 @@ a {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 body {
   background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 40%;
+  }
 }
