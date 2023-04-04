@@ -57,7 +57,7 @@ export const Home = () => {
           <div className="title">
             <div>
               <h1>
-                O melhor custo-beneficio em
+                O melhor custo-benefício em
                 <strong>aluguel de vestidos</strong>.
               </h1>
             </div>
