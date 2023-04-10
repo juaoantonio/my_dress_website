@@ -1,7 +1,6 @@
 .Home {
   padding: 10px 10px 0 10px;
-  height: 100vh;
-  position: relative;
+  min-height: 100vh;
 }
 
 header {
@@ -139,7 +138,6 @@ main {
   grid-gap: 0 50px;
   align-items: center;
 
-  min-height: 80vh;
   margin: 0 auto;
   margin-top: 15px;
 }
@@ -160,14 +158,13 @@ main {
 
 .title > div {
   position: relative;
-  /* min-width: 300px; */
+
   width: 100%;
 }
 
 .title h1 {
   font-size: 5rem;
   font-weight: 600;
-  /* position: relative; */
 }
 
 .title h2 {
