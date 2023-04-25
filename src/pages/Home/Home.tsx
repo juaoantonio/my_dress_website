@@ -30,13 +30,13 @@ export const Home = () => {
         </div>
         <nav ref={navRef}>
           <ul className="navbarLinks">
-            <a href="">
+            <a href="" rel='nofollow'>
               <li>SOBRE</li>
             </a>
-            <a href="">
+            <a href="" rel='nofollow'>
               <li>SERVIÇOS</li>
             </a>
-            <a href="">
+            <a href="" rel='nofollow'>
               <li>CASES</li>
             </a>
           </ul>
@@ -69,6 +69,7 @@ export const Home = () => {
               <a
                 href="https://api.whatsapp.com/send/?phone=5591986193464&text&type=phone_number&app_absent=0"
                 target="_blank"
+                rel='external'
               >
                 <button>
                   Whatsapp
@@ -78,6 +79,7 @@ export const Home = () => {
               <a
                 href="https://instagram.com/mydress.aluguel?igshid=YmMyMTA2M2Y="
                 target="_blank"
+                rel='external'
               >
                 <button>
                   Instagram
@@ -96,7 +98,7 @@ export const Home = () => {
         <div className="footerText">
           <p>
             Developed by{" "}
-            <a href="https://linkedin.com/in/juaoantonio">
+            <a href="https://linkedin.com/in/juaoantonio" rel='external'>
               João Antônio - Web Developer
             </a>{" "}
           </p>
